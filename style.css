@@ -11,8 +11,8 @@ body>table{
     border-collapse: collapse;
 }
 tr:nth-child(even),table.mainTable thead>tr{
-    background-color: #dddddd99;
-    border-color: rgba(255, 255, 255, 0.138);
+    background-color: #dddddd;
+    border-color: white;
 }
 table.mainTable tbody>tr:nth-child(odd){
     background-color: white;
@@ -33,7 +33,7 @@ input[type=submit]{
     width: 30%;
     padding: 5px 15px;
     box-sizing: border-box;
-    color: rgb(59, 86, 128);
+    color: hsl(0, 0%, 100%);
     background-color: orange;
     border: none;
     border-radius: 15px;
