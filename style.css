@@ -11,8 +11,8 @@ body>table{
     border-collapse: collapse;
 }
 tr:nth-child(even),table.mainTable thead>tr{
-    background-color: #dddddd;
-    border-color: white;
+    background-color: #dddddd99;
+    border-color: rgba(255, 255, 255, 0.138);
 }
 table.mainTable tbody>tr:nth-child(odd){
     background-color: white;
