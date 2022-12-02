@@ -1,0 +1,59 @@
+body{
+    background:url(./imagenes/FONDO.PJG.png);
+}
+body>table{
+    width: 90%;
+    border-spacing: 20px;
+    
+}
+.mainTable{
+    width: 100%;
+    border-collapse: collapse;
+}
+tr:nth-child(even),table.mainTable thead>tr{
+    background-color: #dddddd;
+    border-color: white;
+}
+table.mainTable tbody>tr:nth-child(odd){
+    background-color: white;
+}
+td,th{
+    border: 2px solid #dddddd;
+    padding: 10px;
+}
+input[type=text],input[type=number]{
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom:10px;
+    box-sizing: border-box;
+    border: 1px solid orange;
+    border-radius: 15px;
+}
+input[type=submit]{
+    width: 30%;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    color: rgb(59, 86, 128);
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+}
+.button{
+    text-align: center;
+}
+a{
+    color: blue;
+    margin-left: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.classValidate{
+    color: red;
+    margin-left: 5px;
+}
+.hide{
+    display: none;
+}
+label{
+    color: white;
+}

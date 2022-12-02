@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>CRUD</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onSubmitForm();">
+                    <div>
+                        <label>Full Name</label><label class="classValidate hide" id="labelId" >*Este campo es necesario</label>
+                        <input type="text" name="fullName" id="fullName">
+                    </div>
+                    <div>
+                        <label>CodeP</label>
+                        <input type="text" name="CodeP" id="CodeP">
+                    </div>
+                    <div>
+                        <label>Salary</label>
+                        <input type="number" name="salary" id="salary">
+                    </div>
+                    <div>
+                        <label>City</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="mainTable" id="employeeList">
+                    <thead>
+                        <th>Full Name</th>
+                        <th>CodeP</th>
+                        <th>Salary</th>
+                        <th>City</th>
+                        <th></th>
+                    </thead>
+                    <tbody id="tbody">
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+
+    </table>
+    <script src="./script.js"></script>
+</body>
+</html>
